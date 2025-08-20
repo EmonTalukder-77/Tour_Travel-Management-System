@@ -6,7 +6,7 @@ include('includes/config.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>GoPaln Tour</title>
+<title>TMS | Tourism Management System</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -32,7 +32,7 @@ include('includes/config.php');
 <?php include('includes/header.php');?>
 <div class="banner">
 	<div class="container">
-		<!-- <h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" style="color:#000 !important"> GoPlan Tours</h1> -->
+		<!-- <h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" style="color:#000 !important"> TMS - Tourism Management System</h1> -->
 	</div>
 </div>
 
@@ -96,7 +96,7 @@ foreach($results as $result)
 				<a href="#"><i class="glyphicon glyphicon-list-alt"></i></a>
 			</div>
 			<div class="rou-rgt wow fadeInDown animated" data-wow-delay=".5s">
-				<h3>850</h3>
+				<h3>80000</h3>
 				<p>Enquiries</p>
 			</div>
 				<div class="clearfix"></div>
@@ -106,7 +106,7 @@ foreach($results as $result)
 				<a href="#"><i class="fa fa-user"></i></a>
 			</div>
 			<div class="rou-rgt">
-				<h3>1000</h3>
+				<h3>1900</h3>
 				<p>Registered users</p>
 			</div>
 				<div class="clearfix"></div>
@@ -116,7 +116,7 @@ foreach($results as $result)
 				<a href="#"><i class="fa fa-ticket"></i></a>
 			</div>
 			<div class="rou-rgt">
-				<h3>7,000+</h3>
+				<h3>7,00,00,000+</h3>
 				<p>Booking</p>
 			</div>
 				<div class="clearfix"></div>
@@ -135,7 +135,5 @@ foreach($results as $result)
 <!-- write us -->
 <?php include('includes/write-us.php');?>			
 <!-- //write us -->
-<?php include('includes/custom-package.php');?>			
-<!-- //custom package -->
 </body>
 </html>
